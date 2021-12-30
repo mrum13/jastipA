@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/edit_text_form.xml" value="0.2265625" />
+        <entry key="app/src/main/res/layout/activity_cemilan.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/activity_regist.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/card_cemilan.xml" value="0.21041666666666667" />
       </map>
     </option>
   </component>

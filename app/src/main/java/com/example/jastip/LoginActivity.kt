@@ -12,6 +12,12 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         var tvSingUp: TextView=findViewById(R.id.tv_sign_up)
+        var btnSignIn: Button=findViewById(R.id.btn_sign_in_login)
+
+        btnSignIn.setOnClickListener {
+            val moveIntent = Intent(this@LoginActivity, MainActivity::class.java)
+            startActivity(moveIntent)
+        }
 
         tvSingUp.setOnClickListener{
             val moveIntent = Intent(this@LoginActivity, RegistActivity::class.java)
